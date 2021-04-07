@@ -11,14 +11,18 @@
     width: 100%;
     height: 60px;
     background-color: #363636;
-    color: #BEBDB8;
     justify-content: center;
     /* position: fixed; */
     align-items: center;
-    font-size: 14px;
     top: 0;
     left: 0;
     margin: 0px 0px 0px 0px;
+}
+
+#ayoung header .grayheader .info a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #BEBDB8;
 }
 
 #ayoung main .blackbox {
@@ -29,7 +33,12 @@
     left: 0;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
+}
+
+#ayoung main .top {
+    height: 70px;
+    padding-bottom: 30px;
 }
 
 #ayoung .blackbox .words {
@@ -46,6 +55,60 @@
     margin: 5px 5px 0px 0px;
 }
 
+#ayoung #host {
+    color: white;
+    height: 100px;
+    font-size: 30px;
+}
+
+#ayoung .whiteboxlayout {
+    box-sizing: border-box;
+    display: flex;
+    position: fixed;
+    width: 870px;
+    height: 70px;
+    z-index: 10;
+    top: 130px;
+    left: calc(50% - 435px);
+    background-color: white;
+    align-items: stretch;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+#ayoung .whiteboxlayout .whitebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 20px
+}
+
+#ayoung .whiteboxlayout .whitebox:hover {
+    background-color: rgb(233, 231, 231);
+}
+
+#ayoung .whiteboxlayout .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ayoung .whiteboxlayout .what {
+    font-size: 15px;
+}
+
+#ayoung .whiteboxlayout .searchbox {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    align-items: center;
+}
 
 /* 인규 */
 
