@@ -4,17 +4,16 @@
 
 
 
-header {
+#NQ header {
     height: 70px;
     z-index: 1;
     top: 0;
     background-color: white;
     border-bottom: 1px solid #D3D3D3;  
     justify-content: space-around;   
-    
 }
 
-.container {
+ .container {
     display: flex;
     justify-content: space-around;
     padding: 5px 5px;
@@ -23,8 +22,6 @@ header {
 
 .header-container {
     padding: 1px;
-   
-
 }
 
 .icon {
