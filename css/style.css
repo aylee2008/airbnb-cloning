@@ -17,6 +17,7 @@
     top: 0;
     left: 0;
     margin: 0px 0px 0px 0px;
+    min-width: 900px;
 }
 
 #ayoung header .grayheader .info a {
@@ -37,6 +38,7 @@
     left: 0;
     align-items: center;
     justify-content: space-around;
+    min-width: 900px;
     /*padding-top: 20px;*/
 }
 
@@ -53,11 +55,17 @@
     justify-content: space-around;
     align-items: center;
     margin-left: 100px;
+    min-width: 200px;
 }
 
-#ayoung .blackbox .words .wordinside:hover{
+#ayoung .blackbox .words .wordinside:hover {
     border-bottom: 1.2px solid white;
     color: rgb(170, 169, 169);
+}
+
+#ayoung .blackbox .righticon {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 #ayoung .blackbox #hosticon {
