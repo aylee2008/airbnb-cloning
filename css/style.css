@@ -4,7 +4,266 @@
     padding : 0;
 }
 
+* {
+    margin : 0;
+    padding : 0;
+}
+
+#ayoung header .grayheader {
+    display: flex;
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: 60px;
+    background-color: #363636;
+    justify-content: center;
+    /* position: fixed; */
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin: 0px 0px 0px 0px;
+    min-width: 900px;
+}
+
+#ayoung header .grayheader .info a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #BEBDB8;
+}
+
+#ayoung header .grayheader .info a:hover {
+    color: rgb(207, 206, 206);
+}
+
+#ayoung main .blackbox {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 900px;
+    /*padding-top: 20px;*/
+}
+
+#ayoung main .top {
+    height: 70px;
+    padding-bottom: 30px;
+}
+
+#ayoung .blackbox .words {
+    width: 300px;
+    display: flex;
+    font-size: 18px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    min-width: 200px;
+}
+
+#ayoung .blackbox .words .wordinside:hover {
+    border-bottom: 1.2px solid white;
+    color: rgb(170, 169, 169);
+}
+
+#ayoung .blackbox .righticon {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#ayoung .blackbox #hosticon {
+    margin: 5px 5px 0px 0px;
+}
+
+#ayoung #host {
+    color: white;
+    height: 100px;
+    font-size: 30px;
+}
+
+#ayoung .whiteboxlayout {
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 870px;
+    height: 70px;
+    z-index: 10;
+    top: 130px;
+    left: calc(50% - 435px);
+    background-color: white;
+    align-items: stretch;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+#ayoung .whiteboxlayout .whitebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border-right: 1.2px solid rgb(172, 171, 171);
+}
+
+#ayoung .whiteboxlayout .whitebox:hover {
+    background-color: rgb(233, 231, 231);
+}
+
+#ayoung .whiteboxlayout .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ayoung .whiteboxlayout .what {
+    font-size: 15px;
+}
+
+#ayoung .whiteboxlayout .searchbox {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
 /* 인규 */
+
+
+#NQ header {
+    height: 70px;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid #D3D3D3;  
+    justify-content: space-around;   
+}
+
+ .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px;
+}
+
+
+.header-container {
+    padding: 1px;
+}
+
+.icon {
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.search-bar {
+    height: 60px;
+    padding-left : 20px;
+    padding-right : 20px;
+}
+
+.icon-list {
+    height: 60px;
+    padding-right: 1px;
+    padding-left:20px ;
+}
+
+
+
+
+
+
+
+#NQ {
+    margin: 70px;
+    margin-top: 100px;
+}
+
+#NQ .place-photo {
+    height: 72px;
+    width: 72px;
+    border-radius: 13%;
+    margin-right: 18px;
+}
+
+#NQ .house-type-photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 3%;
+    border-right: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#NQ .container {
+    padding: 10px 10px ;
+}
+
+#NQ .place-container {
+    padding-left : 6px;
+    padding-right: 86px;
+    height: 72px;
+    width: 300px;
+    min-width: 200px ;
+    
+}
+
+
+#NQ .house-type-container {
+    padding: 7px;
+    justify-content: space-around;
+    
+}
+
+
+#NQ .place-info {
+    float: right;
+    width: 130px;
+    min-width: 130;
+    
+    
+}
+
+#NQ .header {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ;
+    font-size: 32px;
+}
+
+
+#NQ h2{
+    padding-top: 30px;
+
+}
+
+#NQ .place-name {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ;
+    font-weight: bold; 
+    
+}
+
+#NQ .place-arrivaltime {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ; 
+    padding-right: 10px;
+}
+
+#NQ .house-type-name {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ;
+    font-size: 18px ;
+    font-weight: normal ;
+
+}
+
+
+#NQ #flex {
+    display: flex;
+    justify-content: space-around;
+}
 
 /* 지우 */
 
