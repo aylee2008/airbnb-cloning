@@ -130,4 +130,147 @@
 
 /* 인규 */
 
+
+
+#NQ header {
+    height: 70px;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid #D3D3D3;  
+    justify-content: space-around;   
+}
+
+ .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px;
+}
+
+
+.header-container {
+    padding: 1px;
+}
+
+.icon {
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.search-bar {
+    height: 60px;
+    padding-left : 20px;
+    padding-right : 20px;
+}
+
+.icon-list {
+    height: 60px;
+    padding-right: 1px;
+    padding-left:20px ;
+}
+
+
+
+
+
+
+
+#NQ {
+    margin: 70px;
+    margin-top: 100px;
+}
+
+#NQ .place-photo {
+    height: 72px;
+    width: 72px;
+    border-radius: 13%;
+    margin-right: 18px;
+}
+
+#NQ .house-type-photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 3%;
+    border-right: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#NQ .container {
+    padding: 10px 10px ;
+}
+
+#NQ .place-container {
+    padding-left : 6px;
+    padding-right: 86px;
+    height: 72px;
+    width: 300px;
+    min-width: 200px ;
+    
+}
+
+
+#NQ .house-type-container {
+    padding: 7px;
+    justify-content: space-around;
+    
+}
+
+
+#NQ .place-info {
+    float: right;
+    width: 130px;
+    min-width: 130;
+    
+    
+}
+
+#NQ .header {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ;
+    font-size: 32px;
+}
+
+
+#NQ h2{
+    padding-top: 30px;
+
+}
+
+#NQ .place-name {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ;
+    font-weight: bold; 
+    
+}
+
+#NQ .place-arrivaltime {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ; 
+    padding-right: 10px;
+}
+
+#NQ .house-type-name {
+    font-family: "Airbnb Cereal", Arial, Helvetica, sans-serif ;
+    font-size: 18px ;
+    font-weight: normal ;
+
+}
+
+
+#NQ #flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* 지우 */
