@@ -262,11 +262,6 @@
 
 /* 지우 */
 
-#jw {
-    padding: 0;
-    margin: 0;
-}
-
 ul {
     list-style: none;
 }
@@ -277,15 +272,15 @@ ul {
 }
 
 .jw-starthosting {
-    width: 100%;
+    width: 90%;
+    margin: 5%;
     height: 100%;
-
     padding: 7% 5%;
     box-sizing: border-box;
     margin-bottom: 3%;
     line-height: 55px;
     background-image: url('../img/background1.webp');
-    /*background-size: cover;*/
+    background-size: cover;
     border-radius: 10px;
     color: white;
     display: flex;
@@ -312,7 +307,8 @@ ul {
 
 .jw-specific {
     line-height: 27px;
-    width: 100%;
+    width: 90%;
+    margin: 5%;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
@@ -344,12 +340,12 @@ ul {
 }
 
 footer {
-    width: 100%;
+    width: 90%;
     background-color: rgb(245, 245, 241);
     border-top: 1px solid rgb(177, 177, 177);
     border-bottom: 1px solid rgb(177, 177, 177);
     line-height: 40px;
-    /*padding: 1% 5%;*/
+    padding: 1% 5%;
     display: flex;
     flex-direction: column;
 }
